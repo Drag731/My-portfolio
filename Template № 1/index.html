@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Шаблон 1</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/styleFlex.css">
+	<link href="css/jquery.bxslider.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+</head>
+<body>
+	<header>
+	<div class="flex-container">
+
+		<div class="flex-element element-1">
+			<img src="image/loc.png" alt="Наш адрес" title="Посмотреть на карте"> Украина, г. Днепропетровск, ул. Рогалева, 12б
+		</div>
+
+		<div class="flex-element element-2">
+			<img src="image/email.png" alt="Наша почта" title="Напишите нам"> sssss@vega.com.ua
+		</div>
+
+		<div class="flex-element element-3">
+			<img src="image/phone.png" alt="Наш телефон" title="Позвоните нам"> (056) 888-777-1; (067) 777-65-31
+		</div>
+
+		<div class="flex-element element-4">
+			<ul>
+				<li><a href="">UA</a></li>
+				<li><a href="">ENG</a</li>
+				<li class="active"><a href="">RU</a></li>
+			</ul>
+		</div>
+	
+	</div>
+	</header>
+
+	<div class="logotype">LOGOTYPE</div>
+
+	<nav>
+	<div class="menu-container">
+		
+		<div class="menu-element item-1">Главная</div>
+		<div class="menu-element item-2">Каталог</div>
+		<div class="menu-element item-3">Реализованные проекты</div>
+		<div class="menu-element item-4">О нас</div>
+		<div class="menu-element item-5">Контакты</div>
+
+	</div>
+	</nav>
+	
+	<div class="container">
+	<ul class="bxslider">
+	  <li><img src="image/slide1.png"></li>
+	  <li><img src="image/slide2.png"></li>
+	  <li><img src="image/slide3.png"></li>
+	  <li><img src="image/slide4.png"></li>
+	  <li><img src="image/slide5.png"></li>
+	</ul>
+	</div>
+
+	<section>
+	<div class="product">
+
+		<h3 class="ourProductText">НАША ПРОДУКЦИЯ</h3>
+
+		<div class="container2">
+			<ul class="bxslider2">
+			  <li><img src="image/tovar1.png"></li>
+			  <li><img src="image/tovar2.png"></li>
+			  <li><img src="image/tovar1.png"></li>
+			  <li><img src="image/tovar2.png"></li>
+			  <li><img src="image/tovar1.png"></li>
+			  <li><img src="image/tovar2.png"></li>
+			</ul>
+		</div>
+
+	</div>
+	</section>
+
+	<section>
+	<div class="partners">
+
+		<h3 class="ourPartnersText">НАШИ ПАРТНЕРЫ</h3>
+
+		<div class="partners-container">
+			<div class="partners-element item-1"></div>
+			<div class="partners-element item-2"></div>
+			<div class="partners-element item-3"></div>
+			<div class="partners-element item-4"></div>
+			<div class="partners-element item-5"></div>
+			<div class="partners-element item-6"></div>
+		</div>
+
+	</div>
+	</section>
+
+	<footer>
+		
+		<div class="footer-container">
+		
+			<div class="footer-element item-1">
+				<i class="fa fa-envelope-open-o"></i><span class="email">email@mail.ru
+			</span></div>
+			<div class="footer-element item-2">
+				<div class="phone"><i class="fa fa-phone"></i></div> <span class="phoneNumber">(095) 154 44 11</span>
+			</div>
+			
+			<div class="footer-element item-3">
+				<div class="vk"><i class="fa fa-vk"></i></div>
+				<div class="fb"><i class="fa fa-facebook"></i></div>
+			</div>
+			<div class="footer-element item-4">
+				<div class="phone"><i class="fa fa-phone"></i></div> <span class="phoneNumber"> <span class="backCall">ОБРАТНЫЙ ЗВОНОК</span>
+			</div>
+			<div class="footer-element item-5"><img src="image/iworks.png"></div>
+		</div>
+
+	</footer>
+
+	
+
+	<!-- jQuery library (served from Google) -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<!-- bxSlider Javascript file -->
+<script src="js/jquery.bxslider.js"></script>
+<!-- bxSlider CSS file -->
+<script type="text/javascript">	
+	$(document).ready(function(){
+	  $('.bxslider').bxSlider({
+	  	mode: 'fade',
+	  	default: 100
+	  });
+	});
+</script>
+
+<script type="text/javascript">	
+	$(document).ready(function(){
+	  $('.bxslider2').bxSlider({
+	    slideWidth: 220,
+	    minSlides: 2,
+	    maxSlides: 6,
+	    moveSlides: 1,
+	    slideMargin: 2,
+	    
+		  });
+	});
+</script>
+</body>
+</html>
