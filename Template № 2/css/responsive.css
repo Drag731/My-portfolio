@@ -1,0 +1,109 @@
+@media (min-width: 1200px) {
+	.container {
+    width: 1000px;
+}
+}
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+.carousel-indicators {
+    left: 345%;
+}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+.carousel-indicators {
+    left: 335%;
+}
+}
+
+@media (min-width: 725px) and (max-width: 991px) {
+.carousel-indicators {
+    left: 245%;
+}
+}
+
+@media (min-width: 320px) and (max-width: 724px) {
+
+.colHeight{
+  min-height: 640px;
+}
+
+h1.mainText {
+  font-family: "OpenSansRegular";
+  font-size: 46px;
+  margin: 0;
+  text-align: center;
+}
+
+.main {
+  position: static;
+  width: 100%;
+}
+
+.colHeight p {
+text-align: center;
+margin-bottom: 5px;
+}
+
+div.colHeight a.button {
+text-align: center;
+}
+
+.sliderLeft {
+  background: url(../img/iphone3.png) no-repeat 50% 100%;
+}
+
+.carousel-indicators {
+    left: 42%;
+}
+
+.caruselLeft {
+  position: static;
+  max-width: 271px;
+  min-height: 338px;
+  margin: 0 auto;
+  margin-top: 115px;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    bottom: 0;
+    left: 0%;
+}
+}
+	
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	p.servicesH img{
+	  max-width: 170px;
+	  height: auto;
+	}
+
+	.col-sm-12, .col-md-12, .col-lg-12 {
+		padding-right: 5px;
+		padding-left: 5px;
+	}
+
+	.container {
+    padding-right: 5px;
+    padding-left: 5px;
+	}
+
+	textarea {
+		margin-bottom: 10px;
+	}
+}
+
+@media (max-width: 767px) {
+	p.servicesH img,
+	p.aboutH img{
+	  display: none;
+	}
+
+}
+
