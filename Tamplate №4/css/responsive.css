@@ -1,0 +1,722 @@
+@media (min-width: 1200px) {
+	.container > .navbar-header {
+		padding-top: 4px;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.container > .navbar-header {
+		padding-top: 4px;
+	}
+
+	.quote {
+		width: 22%;
+	}
+
+	.quote a {
+	    padding: 7px 28px;
+	    font-size: 1.2em;
+	    letter-spacing: 1px;
+	}
+
+	.navbar-default .navbar-collapse {
+		width: 52%;
+	}
+
+	.navbar-default .navbar-nav a {
+	    padding: 0 18px;
+	    font-size: 1em;
+	    line-height: 40px;
+	}
+
+	.rslides_tabs {
+	    bottom: 3%;
+	    left: 38%;
+	}
+
+	.buildWidth {
+		width: 100%;
+	}
+
+	h1 {
+		font-size: 2.3em;
+	}
+
+	.buildQuote a {
+		font-size: 1.4em;
+	}
+
+	.ourWorkSlider .rslides_nav {
+	    top: 96%;
+	    left: 96%;
+	}
+
+	.workDescription div:last-child {
+	    font-size: 0.9em;
+	}
+
+	.progectCarouseText {
+		font-size: 1.3em;
+		width: 60%;
+		padding: 0.3em 0.5em 0.3em 1.3em;
+	}
+
+	.zoom2 {
+		bottom: 27%;
+		left: -11%;
+	}
+
+	.ourNewsPadding ul li {
+	    margin-right: 0.6em;
+	}
+
+	.newsMore {
+		left: 56%;
+	}
+
+	.newsWrap p {
+		font-size: 1.7em;
+		width: 80%;
+		padding: 0.6em 0 0;
+	}
+
+	.footer ul li {
+		width: 50px;
+		height: 50px;
+		margin-right: 2px;
+	}
+
+	.footer ul li span {
+		width: 50px;
+		height: 50px;
+	}
+
+	.footer ul li span {
+		background: url(../image/social-icons.png);
+		background-size: 500%;
+	}
+
+	.footer ul li:hover span.fb {
+		background-position:  0 -50px;
+		transition: 0.5s;
+	}
+
+	.footer ul li span.tw {
+		background-position: -50px 0;
+	}
+
+	.footer ul li:hover span.tw {
+		background-position: -50px -50px;
+		transition: 0.5s;
+	}
+
+	.footer ul li span.gg {
+		background-position: -100px 0;
+	}
+
+	.footer ul li:hover span.gg {
+		background-position: -100px -50px;
+		transition: 0.5s;
+	}
+
+	.footer ul li span.p {
+		background-position: -150px 0;
+	}
+
+	.footer ul li:hover span.p {
+		background-position: -150px -50px;
+		transition: 0.5s;
+	}
+
+	.footer ul li span.boll {
+		background-position: -200px 0;
+	}
+
+	.footer ul li:hover span.boll {
+		background-position: -200px -50px;
+		transition: 0.5s;
+	}
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	html, body {
+		font-size: 90%;
+	}
+
+	.container > .navbar-header {
+		padding-top: 8px;
+	}
+
+	.navbar-brand > img {
+	    width: 100%;
+	}
+
+	.quote {
+		width: 22%;
+	}
+
+	.quote a {
+	    padding: 6px 20px;
+	    font-size: 1em;
+	    letter-spacing: 1px;
+	}
+
+	.navbar-default .navbar-collapse {
+		width: 53%;
+	}
+
+	.navbar-default .navbar-nav a {
+	    padding: 0 15px;
+	    font-size: 1em;
+	    line-height: 35px;
+	}
+
+	.rslides_tabs {
+	    bottom: 3%;
+	    left: 38%;
+	}
+
+	.buildWidth {
+		text-align: center;
+	}
+
+	h1 {
+		font-size: 2.5em;
+	}
+
+	.buildQuote {
+		padding: 1.2em 0;
+	}
+
+	.buildQuote a {
+		font-size: 1.7em;
+	}
+
+	.servicesBg {
+		margin: 1em 0; 
+		padding: 1.2em 0;
+	}
+
+	.buildIcon {
+		transform: scale(0.9, 0.9);
+	}
+
+	.ourWorkSlider .rslides_nav {
+	    top: 94%;
+	    left: 95%;
+	}
+
+	.firstCol {
+		width: 40%;
+	}
+
+	.secondCol {
+		width: 60%;
+	}
+
+	.workDescription div:last-child {
+	    font-size: 0.9em;
+	}
+
+	.secondColMaxHeight {
+		max-height: 92px;
+		overflow: auto;
+	}
+
+	.zoomDiv {
+	    bottom: -2%;
+	    right: 10px;
+	}
+
+	.zoomBox {
+		transform: scale(0.8, 0.8);
+	}
+
+	.progectCarouseText {
+		font-size: 1.3em;
+		width: 60%;
+		padding: 0.3em 0.5em 0.3em 1.7em;
+	}
+
+	.zoom2 {
+		bottom: 22%;
+		left: -11%;
+	}
+
+	.ourNewsPadding ul li {
+	    margin-right: 0.5em;
+	}
+
+	.newsMore {
+		left: 47%;
+	}
+
+	.newsWrap p {
+		font-size: 1.6em;
+		padding: 0.5em 0 0;
+	}
+
+	.footer h3 {
+		font-size: 2.2em;
+	}
+
+	.footer p {
+		font-size: 1.2em;
+	}
+
+	.footer ul {
+		margin: 3% 0 0;
+	}
+
+	.contactUs h3 {
+		margin-top: 1em;
+	}
+
+	.contactUsInfo {
+		text-align: center;
+	}
+
+	.contact-text input[type="text"] {
+	    font-size: 14px;
+	    padding: 10px 5px;
+	    margin-bottom: 1em;
+	}
+
+	.contact-textarea textarea {
+	    font-size: 14px;
+	    padding: 10px 10px;
+	    min-height: 8em;
+	}
+
+	.contact-but input[type="submit"] {
+	    padding: 5px 14px;
+	    font-size: 15px;
+	    margin-top: 1.5em;
+	}
+
+}
+
+@media (max-width: 767px) {
+	.ourWorkSlider .rslides_nav {
+	    top: 94%;
+	    left: 95%;
+	}
+}
+
+@media (max-width: 767px) {
+	html, body {
+			font-size: 80%;
+		}
+
+	.navbar {
+		padding: 1em 0px;
+	}
+
+	.container > .navbar-header {
+		width: 37%;
+		display: inline-block;
+		margin: 0;
+		padding-top: 0px;
+	}
+
+	.navbar-brand > img {
+	    width: 100%;
+	}
+
+	.quote {
+		width: 34%;
+		display: inline-block;
+		text-align: right;
+	}
+	.quote a {
+	    padding: 7px 7px;
+	    font-size: 1em;
+	    letter-spacing: 1px;
+	}
+
+	.navbar-default .navbar-collapse {
+	    padding: 0;
+	    margin: 0;
+	    width: 100%;
+	    float: none;
+	}
+
+	.navbar-nav {
+	    margin: 7.5px 0px;
+	}
+
+	.nav li {
+	    display: block;
+	    position: relative;
+	    margin: 0 1px;
+	}
+
+	.buttonToggle {
+		display: inline-block;
+		width: 24%;
+		text-align: center;
+		padding: 0px 0;
+	}
+
+	.navbar-toggle {
+	    position: relative;
+	    display: inline;
+	    float: none;
+	  	padding: 6px 7px;
+	 	margin: 0;
+	    background-color: transparent;
+	    background-image: none;
+	    border: 1px solid transparent;
+	    border-radius: 4px;
+	}
+
+	.rslides_tabs {
+	    bottom: 3%;
+	    left: 33%;
+	}
+
+	.build {
+		float: left;
+		width: 65%;
+	}
+
+	h1 {
+		font-size: 2.2em;
+	}
+
+	.buildQuote {
+		float: left;
+		width: 35%;
+	}
+
+	.buildQuote a {
+	    font-size: 1.5em;
+	    padding: 8px 12px;
+	}
+
+	.servicesBg {
+		margin: 1em 0;
+		padding: 1.3em 0; 
+	}
+
+	.buildIcon {
+		transform: scale(0.7, 0.7);
+	}
+
+	.firstCol {
+		font-size: 1.3em;
+		width: 40%;
+	}
+
+	.secondCol {
+		font-size: 1.2em;
+		width: 60%;
+		margin-bottom: 0.4em;
+	}
+
+	.firstCol p,
+	.secondCol p {
+		margin-bottom: 5px;
+	}
+
+	.secondColMaxHeight {
+		font-size: 1.2em;
+		max-height: 70px;
+		overflow: auto;
+	}
+
+	.zoomDiv {
+	    bottom: -2%;
+	    right: 10px;
+	}
+
+	.zoomBox {
+		transform: scale(0.8, 0.8);
+	}
+
+	.progectCarouseText {
+		font-size: 1.7em;
+		width: 60%;
+		padding: 0.3em 0.4em 0.3em 1.5em;
+	}
+
+	.zoom2 {
+		bottom: 22%;
+		left: -11%;
+	}
+
+	.newsMore {
+		left: 56%;
+	}
+
+	.newsMore {
+		left: 60%;
+		background: #ebb30a url(../image/heart.png) no-repeat 0 -2px;
+	}
+
+	.newsWrap p {
+		font-size: 1.7em;
+		padding: 0.6em 0 0;
+	}
+
+	.footer {
+		padding: 2em 0px;
+		text-align: center;
+	}
+
+	.footer h3 {
+		font-size: 2.2em;
+	}
+
+	.footer p {
+		font-size: 1.4em;
+	}
+
+	.secondEmail {
+		margin-left: 6%;
+	}
+
+	.footer ul {
+		margin: 2% 0 0;
+	}
+
+	.footer ul li {
+		width: 50px;
+		height: 50px;
+		margin-right: 2px;
+	}
+
+	.footer ul li span {
+		width: 50px;
+		height: 50px;
+	}
+
+	.footer ul li span {
+		background: url(../image/social-icons.png);
+		background-size: 500%;
+	}
+
+	.footer ul li:hover span.fb {
+		background-position:  0 -50px;
+		transition: 0.5s;
+	}
+
+	.footer ul li span.tw {
+		background-position: -50px 0;
+	}
+
+	.footer ul li:hover span.tw {
+		background-position: -50px -50px;
+		transition: 0.5s;
+	}
+
+	.footer ul li span.gg {
+		background-position: -100px 0;
+	}
+
+	.footer ul li:hover span.gg {
+		background-position: -100px -50px;
+		transition: 0.5s;
+	}
+
+	.footer ul li span.p {
+		background-position: -150px 0;
+	}
+
+	.footer ul li:hover span.p {
+		background-position: -150px -50px;
+		transition: 0.5s;
+	}
+
+	.footer ul li span.boll {
+		background-position: -200px 0;
+	}
+
+	.footer ul li:hover span.boll {
+		background-position: -200px -50px;
+		transition: 0.5s;
+	}
+
+	.aboutUs,
+	.aboutGallery {
+		text-align: center;
+	}
+
+	.contactUs h3 {
+		margin-top: 1em;
+	}
+
+	.contactUsInfo {
+		text-align: center;
+	}
+
+	.contact-text input[type="text"] {
+	    font-size: 14px;
+	    padding: 10px 5px;
+	    margin-bottom: 1em;
+	}
+
+	.contact-textarea textarea {
+	    font-size: 14px;
+	    padding: 10px 10px;
+	    min-height: 8em;
+	}
+
+	.contact-but input[type="submit"] {
+	    padding: 5px 14px;
+	    font-size: 15px;
+	    margin-top: 1.5em;
+	}
+
+}
+
+@media (max-width: 453px) {
+	.buildQuote {
+		padding-top: 3em;
+	}
+}
+
+@media (max-width: 681px) {
+	.ourWorkSlider .rslides_nav {
+	    top: 93%;
+	    left: 94%;
+	}
+
+}
+
+@media (min-width: 501px) and (max-width: 600px) {
+	h1 {
+		font-size: 1.8em;
+	}
+
+	.buildQuote {
+		text-align: center;
+	}
+
+	.buildQuote a {
+	    font-size: 1.2em;
+	    padding: 5px 5px;
+	    border-radius: 4px;
+	}
+
+	.ourWorkSliderBg>div {
+		width: 100%;
+	}
+
+	.ourWorkSlider .rslides_nav {
+	    top: 97%;
+	    left: 93%;
+	}
+
+	.zoomDiv {
+	    bottom: -2px;
+		right: 13px;
+	}
+
+	.zoomBox {
+		transform: scale(0.9, 0.9);
+	}
+
+	.ourNewsPadding ul li {
+	    margin-right: 0.9em;
+	}
+
+	.newsMore {
+		left: 50%;
+	}
+
+	.newsWrap p {
+		font-size: 1.6em;
+		padding: 0.3em 0 0;
+	}
+
+}
+
+@media (max-width: 500px) {
+		.container > .navbar-header {
+		margin-top: 7px;
+	}
+
+	.rslides_tabs {
+	    bottom: 3%;
+	    left: 27%;
+	}
+
+	.rslides_tabs li a{
+		width: 28px;
+		height: 4px;
+	}
+
+	.build {
+
+		width: 60%;
+	}
+
+	h1 {
+		font-size: 1.6em;
+	}
+
+	.buildQuote {
+		float: left;
+		width: 40%;
+		text-align: center;
+	}
+
+	.buildQuote a {
+	    font-size: 1em;
+	    padding: 5px 1px;
+	    border-radius: 4px;
+	    font-family: "Lato Regular";
+	}
+
+	.ourWorkSliderBg>div {
+		width: 100%;
+	}
+
+	.ourWorkSlider .rslides_nav {
+	    top: 96%;
+	    left: 91%;
+	}
+
+	.zoomDiv {
+	    bottom: -5px;
+		right: 10px;
+	}
+
+	.zoomBox {
+		transform: scale(0.8, 0.8);
+	}
+
+	.progectCarouseText {
+		font-size: 1.5em;
+		width: 55%;
+		padding: 0.3em 0.2em 0.3em 1.6em;
+	}
+
+	.zoom2 {
+		bottom: 14%;
+		left: -11%;
+	}
+
+	.ourNewsPadding ul li {
+	    margin-right: 0.5em;
+	}
+
+	.newsMore {
+		left: 12%;
+	}
+
+	.newsWrap p {
+		font-size: 1.3em;
+		padding: 0.2em 0 0;
+	}
+
+}
+
+@media (max-width: 400px) {
+		.newsWrap p {
+		font-size: 1em;
+		padding: 0;
+	}
+}

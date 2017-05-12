@@ -1,0 +1,817 @@
+@font-face {
+	font-family:"Lato Light";
+	src:url("../fonts/Lato-Light/Lato-Light.eot?") format("eot"),
+		url("../fonts/Lato-Light/Lato-Light.woff") format("woff"),
+		url("../fonts/Lato-Light/Lato-Light.ttf") format("truetype"),
+		url("../fonts/Lato-Light/Lato-Light.svg#Lato-Light") format("svg");
+	font-weight:normal;
+	font-style:normal;
+}
+
+@font-face {
+	font-family:"Lato Regular";
+	src:url("../fonts/Lato-Regular/Lato-Regular.eot?") format("eot"),
+	url("../fonts/Lato-Regular/Lato-Regular.woff") format("woff"),
+	url("../fonts/Lato-Regular/Lato-Regular.ttf") format("truetype"),
+	url("../fonts/Lato-Regular/Lato-Regular.svg#Lato-Regular") format("svg");
+	font-weight:normal;font-style:normal;
+}
+
+@font-face {
+	font-family:"Lato Bold";
+	src:url("../fonts/Lato-Bold/Lato-Bold.eot?") format("eot"),
+	url("../fonts/Lato-Bold/Lato-Bold.woff") format("woff"),
+	url("../fonts/Lato-Bold/Lato-Bold.ttf") format("truetype"),
+	url("../fonts/Lato-Bold/Lato-Bold.svg#Lato-Bold") format("svg");
+	font-weight:normal;font-style:normal;
+}
+
+html, body {
+	font-size: 100%;
+	font-family:"Lato Light";
+}
+
+.navbar {
+    position: relative;
+    margin-bottom: 0px;
+    border: none;
+    padding: 0;
+    background: #f2f2f2;
+	padding: 1.5em 0px;
+	font-family: "Lato Regular";
+}
+
+.container > .navbar-header {
+	float: left;
+	width: 23%;
+	height: auto;
+	padding: 0;
+}
+
+.navbar-brand {
+	padding: 0;
+	display: block;
+	height: auto;
+}
+
+.navbar-right {
+    margin-right: 0;
+}
+
+.navbar-default .navbar-collapse {
+	padding: 0;
+	width: 55%;
+	float: left;
+}
+
+.navbar-default .navbar-nav {
+	padding-top: 2px;
+	color: #dce3e4;
+	text-align: center;
+}
+
+.nav li {
+	display: inline-block;
+	position: relative;
+	margin: 0 1px;
+}
+
+.navbar-default .navbar-nav a {
+	padding: 0 20px;
+	font-size: 1.1em;
+	display: block;
+	line-height: 40px;
+}
+
+.navbar-default .navbar-nav .active a {
+	background-color: #ebb30a;
+	color: #fff;
+	border-radius: 5px;
+}
+
+.navbar-default .navbar-nav li:hover a,
+.navbar-default .navbar-nav li.active:hover a{
+	background-color: #ebb30a;
+	color: #fff;
+	border-radius: 5px;
+	transition: 0.5s;
+} 
+
+button {
+	padding: 0;
+	margin: 0;
+}
+
+.quote {
+	float: right;
+	width: 20%;
+	margin-left: 0em;
+	margin-top: 7px;
+	padding: 0;
+}
+
+.quote a {
+	padding: 8px 33px;
+	text-transform: uppercase;
+	font-size: 1.3em;
+	letter-spacing: 2px;
+	background-color: #242424;
+	color: #cbb814;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+.quote a:hover {
+	background-color: #ebb30a;
+	color: #fff;
+	transition: 0.5s;
+}
+
+.rslides_tabs {
+	width: 200px;
+	position: absolute;
+	bottom: 5%;
+	left: 41%;
+	z-index: 2;	
+}
+
+.rslides_tabs li {
+	display: inline-block;	
+	margin-left: 10px;
+}
+
+.rslides_tabs li a{
+	display: inline-block;
+	background-color: #fff;
+	font-size: 0px;
+	width: 40px;
+	height: 4px;
+	text-decoration: none;
+	outline: none;
+}
+
+li.rslides_here a{
+	background-color: #ebb30a;
+}
+
+.bgyellow {
+	background-color: #ebb30a;
+}
+
+.bannerSlider {
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+.build {
+	color: #fff;
+	padding: 1.2em 0;
+}
+
+.build p {
+	padding: 0;
+	margin: 0;
+}
+
+h1 {
+	font-size: 2.5em;
+	padding: 0;
+	margin: 0;
+}
+
+.buildBlack {
+	color: #000;
+	font-weight: 600;
+}
+
+.buildQuote {
+	padding: 2.2em 0;
+	font-family:"Lato Bold";
+	font-weight: 100;
+}
+
+.buildQuote a {
+	color: #fff;
+	background-color: #000;
+	font-size: 1.7em;
+	padding: 10px 20px;
+	border-radius: 10px;
+	text-decoration: none;
+	line-height: 2;
+}
+
+.buildQuote a:hover {
+	color: #ebb30a;
+	transition: 0.5s;
+}
+
+.buildBlack {
+	font-family:"Lato Bold";
+}
+
+.services {
+	text-align: center;
+	margin: 5em 0;
+	padding: 0 15px;
+}
+
+.servicesBg {
+	background-color: #f1f1f1;
+	padding: 3em 0;
+}
+
+.buildIcon {
+	width: 64px;
+	height: 64px;
+	background: #ebb30a url(../image/buildIcon1.png) no-repeat 50% 50%;
+	border-radius: 5px;
+	margin: 0 auto;
+}
+
+.servicesBg h3 {
+	font-size: 1.4em;
+	margin: 1em 0;
+}
+
+.servicesBg p {
+	line-height: 1.5;
+}
+
+.ourWorkContainer {
+	margin-bottom: 1em;
+}
+
+.ourWork h3 {
+	margin: 0;
+	padding: 0;
+	font-size: 1.8em;
+	font-family: "Lato Regular";
+}
+
+.ourWorkSlider {
+	padding: 15px 0;
+	background-color: #f1f1f1;
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	margin: 1em 0;
+}
+
+.ourWorkSlider .rslides_nav {
+	position: absolute;
+	top: 96%;
+	left: 97%;
+	z-index: 3;
+	width: 16px;
+	height: 16px;
+	text-indent: -9999px;
+	overflow: hidden;
+	background: url(../image/arrows.png);
+}
+
+.ourWorkSlider .rslides_nav.next {
+	right: 0%;
+	left: auto;
+	background: url(../image/arrows.png) right top;
+}
+
+.workName>div,
+.workDescription>div {
+	padding: 0;
+}
+
+.firstCol {
+	font-size: 1.2em;
+	font-family: "Lato Regular";
+	width: 33%;
+	float: left;
+	position: relative;
+}
+
+.secondCol {
+	font-size: 1.1em;
+	font-family: "Lato Light";
+	width: 67%;
+	float: left;
+	position: relative;
+	margin-bottom: 0.4em;
+}
+
+.workDescription div:last-child {
+    font-size: 1.1em;
+}
+
+.zoomDiv {
+	position: absolute;
+	bottom: 0%;
+	right: 15px;
+	z-index: 3;
+}
+
+.zoomBox {
+	width: 50px;
+	height: 50px;
+	background: #ebb30a url(../image/zoom.png) no-repeat 50% 50%;
+}
+
+.zoomDiv:hover {
+	opacity: 0.5;
+	transition: 0.5s;
+}
+
+.progectCarousel {
+	margin: 4em 0;
+}
+
+.progectCarouselImg {
+	position: relative;
+}
+
+.progectCarouselImg:hover .progectCarouseText {
+	background-color: #ebb30a;
+	transition: 0.5s;
+}
+
+.progectCarouseText {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	font-size: 1.4em;
+	color: #fff;
+	width: 60%;
+	background-color: #ccc;
+	padding: 0.3em 0.6em 0.3em 1.4em;
+	line-height: 1.2em;
+}
+
+.zoom2 {
+	position: absolute;
+	bottom: 27%;
+	left: -8%;
+	width: 30px;
+	height: 30px;
+	background: url(../image/zoom2.png);
+}
+
+.ourClient {
+	background: #f3f3f3;
+	padding: 3em 0;
+}
+
+.ourClient h3 {
+	color: #595959;
+	font-size: 3em;
+	font-family: "Lato Light";
+	font-weight: 100;
+	line-height: 1.4em;
+	margin: 0 0 1em;
+}
+
+.love {
+	color: #ebb30a;
+	font-weight: 300;
+}
+
+.ourClient p {
+	font-size: 1.2em;
+	font-family: "Lato Regular";
+	font-weight: 100;
+	line-height: 1.4em;
+}
+
+.clientSlider p {
+	margin: 0 0 1.4em;
+}
+
+.clientSlider h4 {
+	margin: 0 0 1.4em;
+	font-family: "Lato Regular";
+	font-size: 1.3em;
+	color: #ebb30a;
+}
+
+.clientSlider img {
+	max-width: 80px;
+	display: inline-block;
+	float: none;
+}
+
+.clientPosition {
+	color: #b5b5b5;
+}
+
+.ourNews {
+	margin: 4em 0 0;
+}
+
+.ourNews h3 {
+	margin: 0 0 0.5em;
+	padding: 0;
+	font-size: 1.8em;
+	font-family: "Lato Regular";
+}
+
+.newsParagraph {
+	font-size: 1em;
+	font-family: "Lato Regular";
+	margin: 0 0 2.5em;
+}
+
+.ourNewsPadding {
+	padding: 1.6em 12px;
+	margin: 0 0 1em;
+	position: relative;
+	background: #f1f1f1;
+}
+
+.ourNewsPadding p {
+	font-size: 1em;
+	padding: 0;
+	margin: 0;
+}
+
+.ourNews img {
+	width: 100%;
+}
+
+.ourNewsPadding h4 {
+	margin: 0 0 0.5em;
+	padding: 0;
+	font-size: 1.5em;
+	font-family: "Lato Regular";
+}
+
+.ourNewsPadding ul {
+	list-style: none;
+	padding: 0;
+}
+
+.ourNewsPadding ul li {
+	display: inline-block;
+	margin-right: 2em;
+	font-style: italic;
+}
+
+hr {
+    margin: 1em;
+    border: 0;
+    border-top: 1px solid #b5b5b5;
+}
+
+.newsMore {
+	position: absolute;
+	left: 60%;
+	margin: 0;
+	background: #ebb30a url(../image/heart.png) no-repeat 0 2px;
+}
+
+.newsMore a {
+	color: #000;
+	padding: 5px 5px 5px 50px;
+	text-decoration: none;
+}
+
+.newsMore a:hover {
+	color: #fff;
+	transition: 0.5s;
+}
+
+.newsWrapMargin {
+	margin: 3em 0 0;
+}
+
+.newsWrap {
+	position: relative;
+}
+
+.newsWrap img {
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	left: 0;
+}
+
+.newsWrap p {
+	font-size: 1.9em;
+	color: #fff;
+	width: 80%;
+	display: inline-block;
+	padding: 0.8em 0 0;
+	font-family:"Lato Bold";
+}
+
+.footer {
+	background: #141414;
+	padding: 4em 0px;
+}
+
+.footer h3 {
+	color: #ebb30a;
+	font-family: "Lato Regular";
+	font-size: 2.2em;
+}
+
+.footer p {
+	color: #fff;
+	font-family: "Lato Light";
+	font-size: 1em;
+}
+
+p.footerEmail a {
+	text-decoration: none;
+	color: #fff;
+}
+
+p.footerEmail a:hover {
+	color: #ebb30a;
+	transition: 0.5s;
+}
+
+.secondEmail {
+	display: block;
+	margin-left: 13%;
+}
+
+.footer ul {
+	padding: 0;
+	margin: 20% 0 0;
+}
+
+.footer ul li {
+	display: inline-block;
+	width: 64px;
+	height: 64px;
+	margin-right: 2px;
+}
+
+.footer ul li span {
+	background: url(../image/social-icons.png);
+	width: 64px;
+	height: 64px;
+	display: block;
+	transition: 0.5s;
+}
+
+.footer ul li span.fb {
+	background-position: 0 0;
+}
+
+.footer ul li:hover span.fb {
+	background-position:  0 -64px;
+	transition: 0.5s;
+}
+
+.footer ul li span.tw {
+	background-position: -64px 0;
+}
+
+.footer ul li:hover span.tw {
+	background-position: -64px -64px;
+	transition: 0.5s;
+}
+
+.footer ul li span.gg {
+	background-position: -128px 0;
+}
+
+.footer ul li:hover span.gg {
+	background-position: -128px -64px;
+	transition: 0.5s;
+}
+
+.footer ul li span.p {
+	background-position: -192px 0;
+}
+
+.footer ul li:hover span.p {
+	background-position: -192px -64px;
+	transition: 0.5s;
+}
+
+.footer ul li span.boll {
+	background-position: -256px 0;
+}
+
+.footer ul li:hover span.boll {
+	background-position: -256px -64px;
+	transition: 0.5s;
+}
+
+p.twEvent {
+	color: #727272;
+	font-style: italic;
+}
+
+footer {
+	background: #000;
+	padding: 2em 0;
+	text-align: center;
+	color: #fff;
+}
+
+p.rights {
+	font-family: "Lato Regular";
+	font-size: 1.1em;
+	margin-bottom: 1em;
+}
+
+p.rights a {
+	text-decoration: none;
+	color: #fff;
+}
+
+p.rights a:hover {
+	color: #ebb30a;
+	transition: 0.5s;
+}
+
+.aboutUs {
+	margin: 2em 0;
+	line-height: 2;
+}
+
+.aboutUs h1 {
+	font-family:"Lato Bold";
+	font-size: 2em;
+	color: #595959;
+	margin-bottom: 0.6em;
+}
+
+.aboutUs h4 {
+	font-family:"Lato Regular";
+	font-size: 1.1em;
+	color: #010101;
+	line-height: 1.7;
+}
+
+.aboutGallery img {
+	width: 100%;
+}
+
+.aboutGallery h3 {
+	color: #010101;
+	font-family:"Lato Regular";
+	margin: 1em 0;
+}
+
+.aboutGallery p {
+	line-height: 1.8;
+	color: #959191;
+}
+
+.ourTeam {
+	margin: 1em 0 3em;
+}
+
+.ourTeam img {
+	width: 100%;
+}
+
+.ourTeam h2 {
+	font-family:"Lato Bold";
+	font-size: 1.8em;
+	color: #595959;
+	margin-bottom: 0.6em;
+}
+
+.ourTeamParagraph {
+	width: 80%;
+	margin: auto;
+	margin-bottom: 2em;
+	color: #959191;
+}
+
+.ourTeam h3 {
+	font-family:"Lato Bold";
+	font-size: 1.3em;
+	color: #595959;
+}
+
+.ourTeam p {
+	color: #959191;
+}
+
+.noFound {
+	margin: 10em 0;
+}
+
+.noFound p {
+	font-size: 2.5em;
+	font-family: "Lato Bold";
+	font-style: italic;
+	color: #171717;
+}
+
+.noFound h1 {
+	font-size: 15em;
+	font-family: "Lato Bold";
+	color: #e9b10a;
+	letter-spacing: -25px;
+}
+
+.zero {
+	color: #171717;
+}
+
+.noFound a {
+	background: #171717;
+	padding: 10px 45px;
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.2em;
+	font-family: "Lato Regular";
+	border-radius: 10px;
+}
+
+.contactUs h3 {
+	font-family:"Lato Bold";
+	font-size: 1.8em;
+	color: #595959;
+	margin-top: 2em;
+	margin-bottom: 0.8em;
+}
+
+.contactUsParagraph {
+	width: 80%;
+	margin: auto;
+	margin-bottom: 2em;
+	color: #959191;
+}
+
+.contactUsInfo  {
+	font-family:"Lato Regular";
+	margin-bottom: 3em;
+}
+
+.contactUsInfo h3 {
+	font-size: 1.6em;
+	color: #595959;
+}
+
+.contactUsInfo p {
+	color: #858585;
+}
+
+p.companyName {
+	font-family:"Lato Light";
+    color: #1E1E1E;
+    margin: 0.5em 0;
+    font-weight: 900;
+}
+
+.companyNameBlock {
+	display: block;
+}
+
+.contact-text input[type="text"] {
+    width: 49.75%;
+    color: #898888;
+    outline: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    padding: 15px 10px;
+    margin-bottom: 1em;
+    border: solid 1px #D5D4D4;
+    -webkit-appearance: none;
+}
+
+.contact-textarea textarea {
+    resize: none;
+    width: 100%;
+    color: #898888;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    outline: none;
+    padding: 10px 10px;
+    border: solid 1px #D5D4D4;
+    min-height: 11em;
+    -webkit-appearance: none;
+}
+
+.contact-but input[type="submit"] {
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #595959;
+    padding: 10px 20px;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 1.5em;
+    -webkit-appearance: none;
+    border-radius: 0.3em;
+    -webkit-border-radius: 0.3em;
+    -moz-border-radius: 0.3em;
+    -o-border-radius: 0.3em;
+    -ms-border-radius: 0.3em;
+}
+
+.contact-but {
+    text-align: center;
+}
+
+.contact-but:hover input[type="submit"] {
+    background: #ebb30a;
+    transition: 0.5s;
+}
