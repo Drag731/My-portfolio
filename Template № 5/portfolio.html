@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fit&Spa</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Text+Me+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Heebo:700" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/jquery-ui.css" rel="stylesheet">
+    <link href="css/wickedpicker.css" rel="stylesheet">
+    <link href="css/swipebox.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <!-- Auto scroll to the top of the page when updating -->
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+
+    <script src="js/jquery-2.2.3.min.js"></script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+  <header>
+    
+    <nav class="navbar navbar-default" role="navigation">
+      
+      <div class="container containerTop">
+
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <h1><a class="navbar-brand" href="#">FIT&SPA</a></h1>
+        
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapseWidth">
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">    
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="icons.html">Web Icons</a></li>
+                  <li><a href="codes.html">Short Codes</a></li>
+                </ul>
+              </li>
+              <li class="active"><a href="portfolio.html">Portfolio</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+            </ul>    
+          </div><!-- /.navbar-collapse -->
+        </div> <!-- /.collapseWidth -->
+      </div><!-- /.container containerTop-->
+
+    </nav>
+
+    <!-- <div class="social">
+      <ul>
+        <li><a class="fa fa-facebook" href="#"></a></li>
+        <li><a class="fa fa-twitter" href="#"></a></li>
+        <li><a class="fa fa-google-plus" href="#"></a></li>
+        <li><a class="fa fa-dribbble" href="#"></a></li>
+      </ul>
+    </div> -->
+
+  </header>
+
+  <div class="portfolio">
+    <div class="container">
+      <div class="row text-center">
+        <h2>Portfolio</h2>
+      </div>
+      <div class="filtrContainer">
+
+        <ul class="simplefilter text-center">
+          <li class="active" data-filter="all">All</li>
+          <li data-filter="1">Category 1</li>
+          <li data-filter="2">Category 2</li>
+          <li data-filter="3">Category 3</li>
+        </ul>
+
+
+        <div class="filtr-container">
+          <div class="col-md-4 col-sm-4 col-xs-6 filtr-item" data-category="1" data-sort="value">
+            <div class="swipeboxContainer">
+              <a href="image/g1.jpg" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
+                <img src="image/g1.jpg" alt="sample">
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-6 filtr-item" data-category="2" data-sort="value">
+            <div class="swipeboxContainer">
+              <a href="image/g2.jpg" class="swipebox" title="Duis maximus tortor diam, ac lobortis justo rutrum quis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent non purus fermentum, eleifend velit non">
+                <img src="image/g2.jpg" alt="sample">
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-6 filtr-item" data-category="2" data-sort="value">
+            <div class="swipeboxContainer">
+              <a href="image/g3.jpg" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
+                <img src="image/g3.jpg" alt="sample">
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-6 filtr-item" data-category="3" data-sort="value">
+            <div class="swipeboxContainer">
+              <a href="image/g4.jpg" class="swipebox" title="Praesent non purus fermentum, eleifend velit non Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis.">
+                <img src="image/g4.jpg" alt="sample">
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-6 filtr-item" data-category="3" data-sort="value">
+            <div class="swipeboxContainer">
+              <a href="image/g5.jpg" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
+                <img src="image/g5.jpg" alt="sample">
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-6 filtr-item" data-category="1" data-sort="value">
+            <div class="swipeboxContainer">
+              <a href="image/g6.jpg" class="swipebox" title="Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
+                <img src="image/g6.jpg" alt="sample">
+              </a>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+        </div> <!-- /.filtr-container -->
+        
+      </div> <!-- /.filtrContainer -->
+
+    </div> <!-- /.container -->
+
+  </div> <!-- /.portfolio -->
+
+    
+
+    <div class="container-fluid jarallax1 reservation" style="background-image: url(image/bg1.jpg);">
+      <div class="container reservationMain">
+
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2>Make a Reservation</h2>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 reservationSpan">
+            <span class="glyphicon glyphicon-calendar"></span> 
+            <span>Date :</span>
+            <p><input type="text" id="datepicker" placeholder="Date" required=""></p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 reservationSpan">
+            <span class="glyphicon glyphicon-user"></span>
+            <span>No.of People :</span>
+              <select class="personNumber">
+                <option>1 Person</option>
+                <option>2 People</option>
+                <option>3 People</option>
+                <option>4 People</option>
+                <option>5 People</option>
+                <option>More</option>
+              </select>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 reservationSpan">
+            <span class="glyphicon glyphicon-time"></span>
+            <span>Time :</span>
+            <p><input type="text" name="timepicker" class="timepicker" placeholder="Time" required=""></p>
+          </div>
+        </div> <!-- /.row -->
+
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <div class="makeReservation"><input type="submit" value="Make a Reservation"></div>
+          </div>
+        </div>
+      </div> <!-- /.container .reservationMain-->
+    </div> <!-- /.container-fluid jarallax1 reservation -->
+
+    <div class="container footer">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-4">
+          <h2>Review</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sheets containing lorem lpsum passages sed do consectetur adipisicing elit.</p>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3">
+          <h2>Contact Me</h2>
+          <p>123 NewYork City USA. <span class="office">Office: 908-0000</span> Support to: <a href="">mail@example.com</a></p>
+        </div>
+        <div class="col-lg-5 col-md-5 col-sm-5">
+          <h2>Subscribe</h2>
+          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+          <form action="#" method="post">
+            <input type="email" name="email" placeholder="Enter your email" required="">
+            <input type="submit" value="">
+        </form> 
+        </div>
+      </div>
+    </div>
+    
+    <footer>
+      <div class="footerRight text-center">
+        <p>© 2017 Fit&Spa. All rights reserved | Design by <a href="https://w3layouts.com/" target="_blank">W3layouts</a></p>
+      </div>
+    </footer>
+   
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- jarallax effect -->
+    <script src="js/jarallax.js"></script>
+
+    <!-- easyResponsiveTab -->
+    <script src="js/easyResponsiveTabs.js"></script>
+
+    <!-- datePicker -->
+    <script src="js/jquery-ui.js"></script>
+
+    <!-- timePicker -->
+    <script src="js/wickedpicker.js"></script>
+
+    <!-- Top of page button -->
+    <script type="text/javascript" src="js/move-top.js"></script>
+
+    <!-- typeAnimation -->
+    <script type="text/javascript" src="js/easing.js"></script> 
+
+    <!-- skillBars -->
+    <script src="js/skill.bars.jquery.js"></script>
+
+    <!-- filterizr -->
+    <script src="js/jquery.filterizr.js"></script>
+    <script src="js/controls.js"></script>
+
+    <!-- swipebox -->
+    <script src="js/jquery.swipebox.min.js"></script>
+
+    <!-- mainLaunchingScript -->
+    <script src="js/script.js"></script>
+
+  </body>
+</html>

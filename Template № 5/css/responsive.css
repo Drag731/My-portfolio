@@ -1,0 +1,652 @@
+@media (min-width: 1200px) {
+	figure {
+		max-height: 388px;
+	}
+
+	.navText {
+		margin-right: 0;
+	}
+
+	.servicesMain,
+	.reservationMain,
+	.skillMain {
+		max-width: 1170px;
+		margin: 0 auto;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	html, body {
+		font-size: 95%;
+	}
+
+	.navMainText {
+		font-size: 12em;
+		margin-top: 2%;
+	}
+
+	.navSecondText {
+		font-size: 1em;
+		width: 70%;
+		padding: 15px;
+		margin-bottom: 10%;
+		line-height: 1.8em;
+	}
+
+	header {
+		max-height: 650px;
+	}
+
+	figure {
+	    max-height: 312px;
+	}
+
+	figure figcaption {
+		padding: 0.5em;
+	}
+
+	.welcome h2,
+	.about h2 {
+		font-size: 3.5em;
+		margin-top: 7%;
+		margin-bottom: 7%;
+	}
+
+	.person h3 {
+		bottom: -23px;
+		padding: 0.5em 0.8em;
+	}
+
+	.servicesMain,
+	.reservationMain,
+	.skillMain {
+		max-width: 970px;
+		margin: 0 auto;
+	}
+
+	.imgSkill {
+	    bottom: -24px;
+	    left: 15%;
+	}
+
+	.skill img {
+		-webkit-transform: scale(0.9);
+		-moz-transform: scale(0.9);
+		-ms-transform: scale(0.9);
+		-o-transform: scale(0.9);
+		transform: scale(0.9);
+	}
+
+	.carouselImg {
+		max-height: 360px;
+	}
+
+	.carouselCaption {
+		padding: 4em 8em 4em 4em;
+		max-height: 360px;
+	}
+
+	.carouselCaption p {
+		line-height: 1.5em;
+	}
+
+	.carousel-indicators {
+	    bottom: 10px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	html, body {
+		font-size: 90%;
+	}
+
+	.navMainText {
+		font-size: 10em;
+		margin-top: 2%;
+	}
+
+	.navSecondText {
+		font-size: 1em;
+		width: 73%;
+		padding: 13px;
+		margin-bottom: 5%;
+		line-height: 1.8em;
+	}
+
+	header {
+		max-height: 600px;
+	}
+
+	.clearFix {
+		clear: both;
+	}
+
+	figure {
+	    max-height: 400px;
+	}
+
+	figure figcaption {
+		padding: 0.5em;
+	}
+
+	.about {
+		margin-top: 0;
+	}
+
+	.welcome h2,
+	.about h2 {
+		font-size: 3.5em;
+		margin-top: 2%;
+		margin-bottom: 2%;
+	}
+
+	.welcome h3,
+	.about h3 {
+		margin-bottom: 3%;
+	}
+
+	.getStarted,
+	.readMore {
+		margin-top: 5%;
+		margin-bottom: 3%;
+	}
+
+	.person h3 {
+		bottom: -20px;
+		left: 37%;
+		right: 37%;
+		padding: 0.5em 0.7em;
+	}
+
+	li.resp-tab-item {
+	    width: 15%;
+	}
+
+	.services h2,
+	.reservation h2 {
+		margin-top: 0;
+	}
+
+	.reservation h2 {
+		margin-bottom: 5px;
+	}
+
+	.reservation input[type="text"], .reservation select.personNumber {
+	    height: 50px;
+	}
+
+	.skill {
+	    padding: 3em;
+	}
+
+	.imgSkill {
+	    bottom: -50px;
+	    left: 10%;
+	}
+
+	.skill img {
+		-webkit-transform: scale(0.8);
+		-moz-transform: scale(0.8);
+		-ms-transform: scale(0.8);
+		-o-transform: scale(0.8);
+		transform: scale(0.8);
+	}
+
+	.carouselImg {
+		max-height: 360px;
+	}
+
+	.carouselImg img {
+		-webkit-transform: scale(1.2);
+		-moz-transform: scale(1.2);
+		-ms-transform: scale(1.2);
+		-o-transform: scale(1.2);
+		transform: scale(1.2);
+	}
+
+	.carouselCaption {
+		padding: 3em 8em 3em 4em;
+		max-height: 360px;
+	}
+
+	.carouselCaption h3 {
+		margin-top: 0;
+	}
+
+	.carouselCaption p {
+		line-height: 1.5em;
+	}
+
+	.carousel-indicators {
+	    bottom: 10px;
+	}
+
+	.contactLeft textarea {
+		min-height: 170px;
+	}
+
+	.contact {
+		padding-top: 0; 
+	}
+
+	.contactRight {
+		margin-top: 4em;
+	}
+
+	.contactRightImg {
+	    top: -24%;
+	}
+
+	.contactMap iframe {
+	    height: 250px;
+	}
+}
+
+@media (max-width: 767px) {
+	html, body {
+		font-size: 85%;
+	}
+
+	.container > .navbar-header {
+		margin-left: 0;
+	}
+
+	.containerTop .navbar-header h1 {
+		font-size: 2em;
+	}
+
+	.navMainText {
+		font-size: 9em;
+		margin-top: 2%;
+	}
+
+	.navSecondText {
+		font-size: 1em;
+		width: 70%;
+		padding: 10px;
+		margin-bottom: 10%;
+		line-height: 1.6em;
+	}
+
+	header {
+		max-height: 600px;
+		position: relative;
+	}
+
+	.social {
+		top: 30%;
+		right: 5%;
+		font-size: 1.3em;
+	}
+
+	.social ul li a {
+		width: 30px;
+		height: 30px;
+		line-height: 26px;
+	}
+
+	.collapseWidth {
+		margin-left: 0;
+		margin-right: 0; 
+		position: relative;
+	}
+
+	div#bs-example-navbar-collapse-1 {
+		background: rgba(0, 0, 0, 0.9);
+		position: absolute;
+		width: 100%;
+		z-index: 999;
+		text-align: center;
+	}
+
+	.navbar-nav .open .dropdown-menu {
+	    position: static;
+	    float: none;
+	    width: auto;
+	    margin-top: 0;
+	    background-color: transparent;
+	    border: 0;
+	    -webkit-box-shadow: none;
+		-moz-box-shadow: none;
+		box-shadow: none;
+	    text-align: center;
+	}
+
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+	    color: #fff;
+	    padding: 5px 0;
+	   	-webkit-transition: 0.5s;
+	    -moz-transition: 0.5s;
+	    -ms-transition: 0.5s;
+	    -o-transition: 0.5s;
+	    transition: 0.5s;
+	}
+
+	.navbar-default .navbar-nav .open .dropdown-menu > li:hover > a {
+	    color: #ff7200;
+	    -webkit-transition: 0.5s;
+	    -moz-transition: 0.5s;
+	    -ms-transition: 0.5s;
+	    -o-transition: 0.5s;
+	    transition: 0.5s;
+	}
+
+	.navbar-collapse >.navbar-nav >li {
+		margin-left: 0;
+	}
+
+	.collapse >.navbar-nav >li {
+		margin-left: 0;
+	}
+
+	.welcome .col-xs-12,
+	.about .col-xs-12{
+		float: none;
+		width: 95%;
+		margin: 0 auto; 
+	}
+
+	.clearFix {
+		clear: both;
+	}
+
+	figure {
+	    max-height: 323px;
+	}
+
+	figure figcaption {
+		padding: 0.5em;
+	}
+
+	.welcome h2,
+	.about h2 {
+		font-size: 3.5em;
+		margin-top: 2%;
+		margin-bottom: 2%;
+	}
+
+	.welcome h3,
+	.about h3 {
+		margin-bottom: 2%;
+		margin-top: 2%;
+	}
+
+	.getStarted,
+	.readMore {
+		margin-top: 7%;
+	}
+
+	.getStarted {
+	    margin-bottom: 1%;
+	}
+
+	.hoverEffect {
+		margin-bottom: 4em;
+	}
+
+	.hoverEffect:nth-child(3),
+	.hoverEffect:nth-child(4) {
+		margin-bottom: 2em;
+	}
+
+	.hoverEffect h3 {
+		margin-top: 10px;
+	}
+
+	.person h3 {
+		bottom: -15px;
+		left: 33%;
+		right: 33%;
+		padding: 0.5em 0.5em;
+	}
+
+	li.resp-tab-item {
+	    width: 15%;
+	}
+
+	.services h2,
+	.reservation h2 {
+		margin-top: 0;
+	}
+
+	.reservation h2 {
+		margin-bottom: 5px;
+	}
+
+	.reservation input[type="text"], .reservation select.personNumber {
+	    height: 40px;
+	}
+
+	.skill {
+	    padding: 1em;
+	}
+
+	.imgSkill {
+	    bottom: -92px;
+	    left: -10px;
+	}
+
+	.skill img {
+		-webkit-transform: scale(0.63);
+		-moz-transform: scale(0.63);
+		-ms-transform: scale(0.63);
+		-o-transform: scale(0.63);
+		transform: scale(0.63);
+	}
+
+	.skill h2 {
+	    margin-bottom: 0.5em;
+	    font-size: 2.5em;
+	}
+
+	.carouselImg {
+		height: 250px;
+	}
+
+	.carouselImg img {
+		-webkit-transform: scale(1.2);
+		-moz-transform: scale(1.2);
+		-ms-transform: scale(1.2);
+		-o-transform: scale(1.2);
+		transform: scale(1.2);
+	}
+
+	.carouselCaption {
+		padding: 2em 8em 2em 2em;
+		height: 250px;
+	}
+
+	.carouselCaption h3 {
+		margin-top: 0;
+	}
+
+	.carouselCaption p {
+		line-height: 1.5em;
+	}
+
+	.carousel-indicators {
+	    bottom: 0;
+	}
+
+	.contactLeft textarea {
+		min-height: 140px;
+	}
+
+	.contact {
+		padding-top: 0; 
+	}
+
+	.contactRight {
+		margin-top: 5em;
+		padding-top: 4em;
+	}
+
+	.contactRightImg {
+	    top: -24%;
+	}
+
+	.contactRightImg img {
+    	width: 90px;
+    }
+
+    .contactBox {
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+	}
+
+    .contactMap iframe {
+	    height: 200px;
+	}
+}
+
+@media (max-width: 600px) {
+	.carouselImg {
+		width: 100%;
+		max-height: none;
+		height: auto;
+	}
+
+	.carouselImg img {
+		-webkit-transform: scale(1);
+		-moz-transform: scale(1);
+		-ms-transform: scale(1);
+		-o-transform: scale(1);
+		transform: scale(1);
+	}
+
+	.ourTeamCarousel {
+		margin: 0;
+	}
+
+	.carouselCaption {
+		width: 100%;
+		max-height: none;
+		padding: 2em 7em 2em 4em;
+	}
+
+	.carousel-indicators {
+		width: 30%;
+	}
+
+	.carousel-indicators {
+	    bottom: 5%;
+	    left: 100%;
+	}
+
+	figure {
+	    max-height: 254px;
+	}
+}
+
+@media (max-width: 500px) {
+	.navMainText {
+		font-size: 7em;
+		margin-top: 0;
+		margin-bottom: 3%;
+	}
+
+	.skill {
+	    padding: 0.5em;
+	}
+
+	.imgSkill {
+	    bottom: -132px;
+	    left: -64px;
+	}
+
+	.skill img {
+		-webkit-transform: scale(0.47);
+		-moz-transform: scale(0.47);
+		-ms-transform: scale(0.47);
+		-o-transform: scale(0.47);
+		transform: scale(0.47);
+	}
+
+	.skill h2 {
+	    margin-bottom: 0.5em;
+	    font-size: 1.6em;
+	}
+
+	.skillbar {
+	    margin: 10px 0;
+	}
+
+	.skillbar-title {
+	    width: 90px;
+	}
+
+	figure {
+	    max-height: 224px;
+	}
+
+	.simplefilter li {
+	    padding: 0.4em 0.5em;
+	    margin: 0 0.2em;
+	}
+}
+
+@media (max-width: 450px) {
+	.welcomeCenter .col-xs-6,
+	.aboutCenter .col-xs-6 {
+		width: 100%;
+	}
+
+	figure {
+	    max-height: 380px;
+	    margin: 5px 10%; 
+	}
+
+	.welcome,
+	.about {
+	    margin-top: 2em;
+	    margin-bottom: 2em;
+	}
+
+	.hoverEffect {
+		margin-bottom: 3em;
+		width: 100%;
+	}
+
+	.hoverEffect:nth-child(3) {
+		margin-bottom: 3em;
+	}
+
+	.hoverEffect:nth-child(4) {
+		margin-bottom: 1em;
+	}
+
+	.person h3 {
+		bottom: -15px;
+		left: 25%;
+		right: 25%;
+		padding: 0.4em 0.4em;
+	}
+
+	li.resp-tab-item {
+	    width: 18%;
+	}
+
+	.readMore {
+	    margin-bottom: 10%;
+	}
+
+	.filtr-item {
+		width: 100%;
+	}
+}
+
+@media (max-width: 400px) {
+	.social {
+		top: 36%;
+		right: 5%;
+	}
+
+	.contactRightImg {
+	    top: -20%;
+	}
+}
+
+
+
+
